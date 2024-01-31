@@ -1,21 +1,21 @@
 require 'java'
 
-# require File.expand_path('../../apache-activemq-5.5.1/activemq-all-5.5.1.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/log4j-1.2.14.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/slf4j-log4j12-1.5.11.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/spring-core-3.0.3.RELEASE.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/spring-beans-3.0.3.RELEASE.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/spring-context-3.0.3.RELEASE.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/spring-asm-3.0.3.RELEASE.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/spring-expression-3.0.3.RELEASE.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/optional/xbean-spring-3.7.jar', __FILE__)
-# require File.expand_path('../../apache-activemq-5.5.1/lib/jcl-over-slf4j-1.5.11.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/activemq-all-6.0.1.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/lib/optional/log4j-core-2.22.0.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-core-6.0.14', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-beans-6.0.14.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-context-6.0.14.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-expression-6.0.14.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/lib/optional/xbean-spring-4.24.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.0.1/lib/jcl-over-slf4j-2.0.9.jar', __FILE__)
 
-require File.expand_path('../../apache-activemq-5.17.1/activemq-all-5.17.1.jar', __FILE__)
-require File.expand_path('../../apache-activemq-5.17.1/lib/optional/log4j-core-2.17.2.jar', __FILE__)
-require File.expand_path('../../apache-activemq-5.17.1/lib/optional/spring-core-5.3.19.jar', __FILE__)
-require File.expand_path('../../apache-activemq-5.17.1/lib/optional/spring-beans-5.3.19.jar', __FILE__)
-require File.expand_path('../../apache-activemq-5.17.1/lib/optional/spring-context-5.3.19.jar', __FILE__)
-require File.expand_path('../../apache-activemq-5.17.1/lib/optional/spring-expression-5.3.19.jar', __FILE__)
-require File.expand_path('../../apache-activemq-5.17.1/lib/optional/xbean-spring-4.21.jar', __FILE__)
-require File.expand_path('../../apache-activemq-5.17.1/lib/jcl-over-slf4j-1.7.36.jar', __FILE__)
+# Include additional dependencies
+#
+# JMS API 
+# https://repo1.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/
+require File.expand_path('../../javax.jms/javax.jms-api-2.0.1.jar', __FILE__)
+
+# Log4j
+# https://dlcdn.apache.org/logging/log4j/2.22.1/
+require File.expand_path('../../log4j/log4j-api-2.22.1.jar', __FILE__)
+require File.expand_path('../../log4j/log4j-core-2.22.1.jar', __FILE__)
