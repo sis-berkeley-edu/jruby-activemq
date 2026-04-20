@@ -1,13 +1,13 @@
 require 'java'
 
-require File.expand_path('../../apache-activemq-6.0.1/activemq-all-6.0.1.jar', __FILE__)
-require File.expand_path('../../apache-activemq-6.0.1/lib/optional/log4j-core-2.22.0.jar', __FILE__)
-require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-core-6.0.14', __FILE__)
-require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-beans-6.0.14.jar', __FILE__)
-require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-context-6.0.14.jar', __FILE__)
-require File.expand_path('../../apache-activemq-6.0.1/lib/optional/spring-expression-6.0.14.jar', __FILE__)
-require File.expand_path('../../apache-activemq-6.0.1/lib/optional/xbean-spring-4.24.jar', __FILE__)
-require File.expand_path('../../apache-activemq-6.0.1/lib/jcl-over-slf4j-2.0.9.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/activemq-all-6.2.4.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/lib/optional/log4j-core-2.25.3.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/lib/optional/spring-core-6.2.16', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/lib/optional/spring-beans-6.2.16.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/lib/optional/spring-context-6.2.16.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/lib/optional/spring-expression-6.2.16.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/lib/optional/xbean-spring-4.30.jar', __FILE__)
+require File.expand_path('../../apache-activemq-6.2.4/lib/jcl-over-slf4j-2.0.17.jar', __FILE__)
 
 # Include additional dependencies
 #
