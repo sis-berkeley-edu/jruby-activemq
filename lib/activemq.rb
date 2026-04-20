@@ -16,6 +16,6 @@ require File.expand_path('../../apache-activemq-6.0.1/lib/jcl-over-slf4j-2.0.9.j
 require File.expand_path('../../javax.jms/javax.jms-api-2.0.1.jar', __FILE__)
 
 # Log4j
-# https://dlcdn.apache.org/logging/log4j/2.22.1/
-require File.expand_path('../../log4j/log4j-api-2.22.1.jar', __FILE__)
-require File.expand_path('../../log4j/log4j-core-2.22.1.jar', __FILE__)
+# https://dlcdn.apache.org/logging/log4j/2.25.4/
+require File.expand_path('../../log4j/log4j-api-2.25.4.jar', __FILE__)
+require File.expand_path('../../log4j/log4j-core-2.25.4.jar', __FILE__)
